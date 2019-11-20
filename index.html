@@ -7,15 +7,13 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="retrieveLocalStorage()">
     <input type="text" id="input" />
     <button onclick="addToList()">Add to list</button>
 
     <ul id="toDoList">
 
     </ul>
-
-    <script>retrieveLocalStorage()</script>
 </body>
 
 </html>
